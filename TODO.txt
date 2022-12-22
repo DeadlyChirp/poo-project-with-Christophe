@@ -1,0 +1,23 @@
+1. Un environnement de jeu, réalisant l’accueil de l’utilisateur, et permettant de procéder au
+paramétrage du jeu :
+  — choisir le jeu (dominos ou Carcassonne) ;
+  — choisir le nombre de joueurs ;
+  — sélectionner “humain” ou “IA” pour chaque joueur 3
+
+2. L’implémentation de toutes les règles du jeu du domino.
+
+3. L’implémentation partielle des règles du jeu de Carcassonne. Plus précisément, votre
+programme devra gérer la partie de la pose de la première tuile jusqu’à ce que le sac soit
+vide, en s’assurant que les règles sont respectées, avec 2 exceptions majeures :
+  — il n’est pas demandé de vérifier les contraintes de placement des pions : un joueur peut
+  toujours placer un pion sur un élément de la tuile qu’il vient de jouer (pourvu qu’il lui en reste).
+  — il n’est pas demandé de compter les points.
+
+4. Un mode de jeu “texte” pour les dominos (pouvant se jouer entièrement dans le terminal).
+Il n’a pas vocation a être très ergonomique, nous vous le demandons pour être certains que votre travail ne soit pas bloqué par
+le traitement de problèmes liés à l’interface graphiques.
+
+5. Un mode de jeu “graphique” pour les dominos et pour Carcassonne utilisant awt et swing (et uniquement ces librairies)
+
+6. faire un pdf de 5 pages explicatif, qui résume le fnctionnement du code et qui inclue la factorisation des classe,
+une ligne de commande pour lancer le jeu depuis un terminal, soit 2 commandes, une pour un-zip le dossier et une pour lancer le jeu
