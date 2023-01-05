@@ -1,7 +1,5 @@
 package pooig;
-
 import pooig.view.MenuFrame;
-
 import javax.swing.*;
 
 public class Main {
